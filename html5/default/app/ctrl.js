@@ -150,6 +150,7 @@ export function destroy () {
   this.options = null
   this.blocks = null
   this.vm = null
+  this.doc.destroy()
   this.doc = null
   this.customComponentMap = null
   this.callbacks = null
